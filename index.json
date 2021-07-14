@@ -1,0 +1,9 @@
+const Discord = require("discord.js");
+
+const client = new Discord.Client();
+
+client.login("ODU1Mjc2NjgzMDkwOTg0OTkx.YMwIew.tQlKI_Chn9NdC8p9cGH3YgYwpWE");
+
+client.once('ready', () => {
+    console.log('Ready!');
+});
